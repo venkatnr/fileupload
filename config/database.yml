@@ -1,0 +1,31 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: fileupload_development
+  pool: 5
+  username: postgres
+  password: postgres
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: fileupload_test
+  pool: 5
+  username: postgres
+  password: postgres
+
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: murabahclub_production
+#   pool: 5
+#   username: postgres
+#   password: postgres
+
+# dev:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: murabahclub_dev
+#   pool: 5
+#   username: postgres
+#   password: postgres
